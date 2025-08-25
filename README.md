@@ -1,6 +1,6 @@
-# Azure Sample Chat
 
-An easy Python example to chat with Azure OpenAI Service, based on the Code section from the Chat playground on Azure OpenAI Service.
+
+Python - Azure OpenAI Service, based on the Code section from the Chat playground on Azure OpenAI Service.
 
 ## Setup and prerequisites
 
