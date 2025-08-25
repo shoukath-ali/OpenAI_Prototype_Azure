@@ -23,6 +23,20 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Azure App Service optimization
+if 'PORT' in os.environ:
+    # Running on Azure App Service
+    st.markdown("""
+    <style>
+    .stApp > header {
+        background-color: transparent;
+    }
+    .stApp {
+        margin-top: -80px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 # Initialize Azure OpenAI client
 @st.cache_resource
 def init_openai_client():
